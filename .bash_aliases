@@ -5,7 +5,7 @@ alias work='cd $HOME/work'
 
 # Git
 alias gs='git status'
-alias gr='git reomte -v'
+alias gr='git remote -v'
 alias gb='git branch --list'
 alias gl='git log --oneline -n20 --graph --decorate'
 alias gc='git commit'
