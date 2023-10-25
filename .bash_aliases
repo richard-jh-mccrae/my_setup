@@ -10,7 +10,6 @@ alias gb='git branch --list'
 alias gl='git log --oneline -n20 --graph --decorate'
 alias gc='git commit'
 alias gco='git checkout'
-alias gt='echo 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'
 
 # WSL
 alias usb='sudo usbip attach -r localhost --busid'

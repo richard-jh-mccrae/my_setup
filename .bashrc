@@ -57,8 +57,6 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 #
-# Skk33FreeF0rev!!:)_sn1kk#rs
-#
 # Add git branch if its present to PS1
 
 parse_git_branch() {
@@ -111,6 +109,10 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
+fi
+
+if [ -f~/.bash_gt ]; then
+    . ~/.bash_gt
 fi
 
 # enable programmable completion features (you don't need to enable
